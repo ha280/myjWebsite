@@ -10,8 +10,8 @@ const expressSanitizer = require("express-sanitizer");
     metoverride = require("method-override");
     expresanitiz= require("express-sanitizer");
 const { requireAuth, checkUser } = require('./middleware/authMiddleware');
-
-const dbURI = 'mongodb+srv://Mrityunjaya:MongoDB9V@cluster0.gznsa.mongodb.net/Mrityunjaya';
+// mongodb+srv://Mrityunjaya:MongoDB9V@cluster0.gznsa.mongodb.net/Mrityunjaya
+const dbURI = 'mongodb://localhost:27017/test';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
     .then((result) => console.log("Server is running..."))
     .catch((err) => console.log(err));
@@ -44,7 +44,13 @@ var campground = mongoose.model('campground', {
 // });
 app.get('*', checkUser);
 app.get("/",function(req,res){
-    res.render("index.ejs");
+    campground.find({},function(err,campgrounds){
+        if(err){
+            console.log(err);
+        }else{
+            res.render("index",{campground : campgrounds});
+        }
+    });
 });
 app.get("/intro",function(req,res){
     res.render("intro.ejs");
