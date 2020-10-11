@@ -10,3 +10,12 @@
 .btn-login{
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
+.btn-green{
+    color: $color-black;
+    text-align: center;
+    background-color: $color-blue-dark;
+
+    &::after{
+    background-color: $color-blue-dark;
+    }
+}
