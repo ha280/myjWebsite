@@ -26,7 +26,20 @@
 
 .heading-Secoundry-2{
     font-size: 2.2rem;
-	font-weight: 500;
+	font-weight: bold;
+	display: inline-block;
+    transition: all .4s;
+    text-transform: capitalize;
+    background-image: linear-gradient(to right,#7ed56f, #28b384);
+    -webkit-background-clip: text;
+    color: transparent;
+    &:hover{
+        transform: skewY(2deg) skewX(15deg) scale(1.1);
+    }
+}
+.heading-Primary-2{
+    font-size: 4rem;
+	font-weight: bold;
 	display: inline-block;
     transition: all .4s;
     text-transform: capitalize;
