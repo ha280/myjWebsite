@@ -7183,7 +7183,8 @@ body {
   background-color: #f1f1f1;
   color: #777;
   font-family: 'Open sans' ,sans-serif;
-  line-height: 1.6; }
+  line-height: 1.6;
+  font-family: 'Libre Baskerville'; }
 
 .contain {
   display: grid;
@@ -7527,9 +7528,10 @@ label {
   background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); }
 
 .btn-green {
-  color: #000;
+  color: #fff;
   text-align: center;
-  background-color: #6f86d6; }
+  background-color: #6f86d6;
+  font-size: 1.5rem; }
   .btn-green::after {
     background-color: #6f86d6; }
 
@@ -7621,7 +7623,7 @@ header {
   grid-row: 2/3; }
 
 .font-m {
-  font-size: 1.3rem; }
+  font-size: 1.4rem; }
 
 .font-b {
   font-size: 1.8rem !important; }
