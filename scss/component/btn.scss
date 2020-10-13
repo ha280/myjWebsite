@@ -10,12 +10,13 @@
 .btn-login{
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
 }
-.btn-green{
-    color: #fff;
+.btn-green-outline{
+    color: $color-blue-dark;
     text-align: center;
-    background-color: $color-blue-dark;
+    border: 2px solid $color-blue-dark ;
     font-size: 1.5rem;
-    &::after{
-    background-color: $color-blue-dark;
+    &:hover{
+        background-image: linear-gradient(to right, $color-blue-light , $color-blue-dark);
+        color: #fff;
     }
 }
