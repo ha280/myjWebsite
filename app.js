@@ -53,7 +53,7 @@ app.get("/",function(req,res){
     });
 });
 app.get("/intro",function(req,res){
-    res.render("intro.ejs");
+    res.render("intro");
 });
 app.get("/contactUs",function(req,res){
     res.render("contactus");
