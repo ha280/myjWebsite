@@ -55,6 +55,9 @@ app.get("/",function(req,res){
 app.get("/intro",function(req,res){
     res.render("intro.ejs");
 });
+app.get("/contactUs",function(req,res){
+    res.render("contactus");
+});
 app.get("/campground", function(req,res){
     //get campround from db
     campground.find({},function(err,campgrounds){
