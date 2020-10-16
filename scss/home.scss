@@ -29,7 +29,7 @@ header{
 
 }
 .footer{
-	grid-row: 8 / 9;
+	grid-row: 9 / 10;
 	grid-column: 1 / -1;
 
 }
@@ -94,4 +94,8 @@ header{
 	margin-top: 5rem;
 	grid-column: center-start/center-end;
 	grid-row: 2/3;
+}
+.section-contactUs{
+	grid-row:8 /9;
+	grid-column: 2 / 9;
 }

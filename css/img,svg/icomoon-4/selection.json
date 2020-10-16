@@ -16,7 +16,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 15,
+        "order": 8,
         "ligatures": "call",
         "id": 88,
         "prevSize": 24,
@@ -29,27 +29,77 @@
     {
       "icon": {
         "paths": [
-          "M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
+          "M884 300l-78 78-160-160 78-78q12-12 30-12t30 12l100 100q12 12 12 30t-12 30zM128 736l472-472 160 160-472 472h-160v-160z"
         ],
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "location_on, place, room"
+          "create, mode_edit, edit"
         ],
         "grid": 24
       },
       "attrs": [],
       "properties": {
-        "order": 30,
-        "ligatures": "location_on, place, room",
-        "id": 107,
+        "order": 4,
+        "ligatures": "create, mode_edit, edit",
+        "id": 157,
         "prevSize": 24,
-        "name": "location_onplaceroom"
+        "name": "createmode_editedit"
       },
       "setIdx": 0,
       "setId": 4,
-      "iconIdx": 107
+      "iconIdx": 157
+    },
+    {
+      "icon": {
+        "paths": [
+          "M576 662q28 0 46-19t18-45-18-45-46-19h-150v128h150zM426 278v128h128q26 0 45-19t19-45-19-45-45-19h-128zM666 460q92 42 92 146 0 68-45 115t-113 47h-302v-598h268q72 0 121 50t49 122-70 118z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "format_bold"
+        ],
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 23,
+        "ligatures": "format_bold",
+        "id": 268,
+        "prevSize": 24,
+        "name": "format_bold"
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 268
+    },
+    {
+      "icon": {
+        "paths": [
+          "M86 234h852v86h-852v-86zM86 448h852v86h-852v-86zM86 662h852v84h-852v-84z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "dehaze"
+        ],
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 10,
+        "ligatures": "dehaze",
+        "id": 413,
+        "prevSize": 24,
+        "name": "dehaze"
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 413
     },
     {
       "icon": {
@@ -66,7 +116,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 29,
+        "order": 20,
         "ligatures": "remove_red_eye, visibility",
         "id": 481,
         "prevSize": 24,
@@ -75,6 +125,31 @@
       "setIdx": 0,
       "setId": 4,
       "iconIdx": 481
+    },
+    {
+      "icon": {
+        "paths": [
+          "M214 854h596v84h-596v-84zM426 342q0 36 25 60t61 24 61-24 25-60q0-34-26-60t-60-26-60 26-26 60zM768 342q0 86-64 203t-128 191l-64 74q-28-30-71-82t-114-176-71-210q0-106 75-181t181-75 181 75 75 181z"
+        ],
+        "attrs": [],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "tags": [
+          "pin_drop"
+        ],
+        "grid": 24
+      },
+      "attrs": [],
+      "properties": {
+        "order": 11,
+        "ligatures": "pin_drop",
+        "id": 559,
+        "prevSize": 24,
+        "name": "pin_drop"
+      },
+      "setIdx": 0,
+      "setId": 4,
+      "iconIdx": 559
     },
     {
       "icon": {
@@ -91,7 +166,7 @@
       },
       "attrs": [],
       "properties": {
-        "order": 16,
+        "order": 22,
         "ligatures": "arrow_upward",
         "id": 606,
         "prevSize": 24,
@@ -104,52 +179,52 @@
     {
       "icon": {
         "paths": [
-          "M854 640q-18 0-31-12t-13-30v-384q0-18 13-31t31-13h84v470h-84zM426 938l-18-20q-24-24-38-52-6-14-4-28l40-198h-236q-34 0-59-26t-25-60v-46q0-20 6-34l114-262q26-42 74-42h346q42 0 71 29t29 71v334q0 36-26 62zM464 780l176-174v-336q0-14-14-14h-346l-110 252v46h236q38 0 65 31t17 71z"
+          "M512 598q108 0 225 47t117 123v86h-684v-86q0-76 117-123t225-47zM512 512q-70 0-120-50t-50-120 50-121 120-51 120 51 50 121-50 120-120 50z"
         ],
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "thumb_down_off_alt"
+          "person"
         ],
         "grid": 24
       },
       "attrs": [],
       "properties": {
-        "order": 9,
-        "ligatures": "thumb_down_off_alt",
-        "id": 1031,
+        "order": 2,
+        "ligatures": "person",
+        "id": 685,
         "prevSize": 24,
-        "name": "thumb_down_off_alt"
+        "name": "person"
       },
       "setIdx": 0,
       "setId": 4,
-      "iconIdx": 1031
+      "iconIdx": 685
     },
     {
       "icon": {
         "paths": [
-          "M170 384q18 0 31 12t13 30v384q0 18-13 31t-31 13h-84v-470h84zM598 86l18 20q24 24 38 52 6 14 4 28l-40 198h236q34 0 59 26t25 60v46q0 18-6 34l-114 262q-26 42-74 42h-346q-42 0-71-29t-29-71v-334q0-36 26-62zM560 244l-176 174v336q0 14 14 14h346l110-252v-46h-236q-38 0-65-31t-17-71z"
+          "M810 170v86h-596v-86h148l44-42h212l44 42h148zM256 810v-512h512v512q0 34-26 60t-60 26h-340q-34 0-60-26t-26-60z"
         ],
         "attrs": [],
         "isMulticolor": false,
         "isMulticolor2": false,
         "tags": [
-          "thumb_up_off_alt"
+          "delete"
         ],
         "grid": 24
       },
       "attrs": [],
       "properties": {
-        "order": 10,
-        "ligatures": "thumb_up_off_alt",
-        "id": 1032,
+        "order": 3,
+        "ligatures": "delete",
+        "id": 737,
         "prevSize": 24,
-        "name": "thumb_up_off_alt"
+        "name": "delete"
       },
       "setIdx": 0,
       "setId": 4,
-      "iconIdx": 1032
+      "iconIdx": 737
     },
     {
       "icon": {
@@ -167,7 +242,7 @@
       "attrs": [],
       "properties": {
         "id": 32,
-        "order": 19,
+        "order": 18,
         "prevSize": 20,
         "name": "bookmark"
       },
@@ -191,7 +266,7 @@
       "attrs": [],
       "properties": {
         "id": 181,
-        "order": 27,
+        "order": 7,
         "prevSize": 20,
         "name": "heart-outlined"
       },
@@ -215,7 +290,7 @@
       "attrs": [],
       "properties": {
         "id": 182,
-        "order": 28,
+        "order": 5,
         "prevSize": 20,
         "name": "heart"
       },
@@ -239,7 +314,7 @@
       "attrs": [],
       "properties": {
         "id": 226,
-        "order": 12,
+        "order": 21,
         "prevSize": 20,
         "name": "message"
       },
@@ -270,7 +345,7 @@
       "properties": {
         "ligatures": "mail3, contact3",
         "name": "mail2",
-        "order": 20,
+        "order": 15,
         "id": 389,
         "prevSize": 32
       },
@@ -297,7 +372,7 @@
       "properties": {
         "ligatures": "google-plus, brand5",
         "name": "google-plus",
-        "order": 21,
+        "order": 14,
         "id": 396,
         "prevSize": 32
       },
@@ -323,7 +398,7 @@
       "properties": {
         "ligatures": "facebook, brand10",
         "name": "facebook",
-        "order": 24,
+        "order": 17,
         "id": 401,
         "prevSize": 32
       },
@@ -351,7 +426,7 @@
       "properties": {
         "ligatures": "instagram, brand12",
         "name": "instagram",
-        "order": 22,
+        "order": 16,
         "id": 403,
         "prevSize": 32
       },
@@ -378,7 +453,7 @@
       "properties": {
         "ligatures": "twitter, brand16",
         "name": "twitter",
-        "order": 26,
+        "order": 13,
         "id": 407,
         "prevSize": 32
       },
@@ -404,13 +479,39 @@
       "properties": {
         "ligatures": "youtube, brand21",
         "name": "youtube",
-        "order": 25,
+        "order": 12,
         "id": 414,
         "prevSize": 32
       },
       "setIdx": 3,
       "setId": 1,
       "iconIdx": 413
+    },
+    {
+      "icon": {
+        "paths": [
+          "M928 0h-832c-52.8 0-96 43.2-96 96v832c0 52.8 43.2 96 96 96h832c52.8 0 96-43.2 96-96v-832c0-52.8-43.2-96-96-96zM384 832h-128v-448h128v448zM320 320c-35.4 0-64-28.6-64-64s28.6-64 64-64c35.4 0 64 28.6 64 64s-28.6 64-64 64zM832 832h-128v-256c0-35.4-28.6-64-64-64s-64 28.6-64 64v256h-128v-448h128v79.4c26.4-36.2 66.8-79.4 112-79.4 79.6 0 144 71.6 144 160v288z"
+        ],
+        "tags": [
+          "linkedin",
+          "brand",
+          "social"
+        ],
+        "defaultCode": 60105,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "linkedin, brand64",
+        "name": "linkedin",
+        "order": 24,
+        "id": 458,
+        "prevSize": 32
+      },
+      "setIdx": 3,
+      "setId": 1,
+      "iconIdx": 457
     }
   ],
   "height": 1024,
@@ -422,7 +523,9 @@
     "fontPref": {
       "prefix": "icon-",
       "metadata": {
-        "fontFamily": "icomoon"
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
       },
       "metrics": {
         "emSize": 1024,

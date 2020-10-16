@@ -7346,6 +7346,13 @@ header {
   width: 3rem;
   fill: #000; }
 
+.icon-person {
+  height: 2rem;
+  width: 2rem;
+  fill: #000;
+  border: 1px solid #000;
+  border-radius: 50%; }
+
 .heart {
   background-color: #fff;
   position: relative;
@@ -7577,7 +7584,7 @@ header {
   height: 45vw; }
 
 .footer {
-  grid-row: 8 / 9;
+  grid-row: 9 / 10;
   grid-column: 1 / -1; }
 
 .section-fixed {
@@ -7636,6 +7643,10 @@ header {
   grid-column: center-start/center-end;
   grid-row: 2/3; }
 
+.section-contactUs {
+  grid-row: 8 /9;
+  grid-column: 2 / 9; }
+
 .font-m {
   font-size: 1.4rem; }
 
@@ -7682,8 +7693,8 @@ header {
 
 .drop-blog {
   position: absolute;
-  right: 1rem;
-  top: 1rem; }
+  right: 0rem;
+  top: 3rem; }
 
 .drop-blog-1 {
   position: absolute;

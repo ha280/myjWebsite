@@ -1,6 +1,12 @@
 <%- include('partials/header') %>
 <section class="section-post font-m">
-    <h2 class="pl-4 heading-Secoundry text-left pb-5"><%=campground.name%></h2>
+    <span class="pl-4 text-left pb-5">
+        <svg class="icon-person mx-3" >
+            <use xlink:href="../css/img,svg/icons-1.svg#icon-person"></use>
+        </svg> 
+        <%=campground.UserId%>
+    </span><br>
+    <h2 class="pl-4 heading-Secoundry text-left py-4"><%=campground.name%></h2>
     <img src="<%=campground.image %>" alt="" class="blog-img w-100">
     <p class="py-5 "><%=campground.description%></p>
     <div class="p-4 w-100 d-inline-block border border-left-0 border-right-0 border-bottom-0">
@@ -11,7 +17,7 @@
         <label for="check-heart" class="float-right text-grey heart my-1">
             <%=campground.hearts%>             
                 <svg class="icon-heart-filled" >
-                    <use xlink:href="../css/img,svg/icon-2.svg#icon-heart"></use>
+                    <use xlink:href="../css/img,svg/icons-1.svg#icon-heart"></use>
                 </svg>             
         </label >
     </div>
@@ -43,7 +49,7 @@
     <div class=" drop-blog-1">
         <button type="button " class="p-3 btn" data-toggle="dropdown">
             <svg class="icon-dehaze" >
-                <use xlink:href="../css/img,svg/icon-2.svg#icon-dehaze" ></use>
+                <use xlink:href="../css/img,svg/icons-1.svg#icon-dehaze" ></use>
             </svg>
         </button>    
         <div class="dropdown-menu font-m text-center">
