@@ -7,6 +7,18 @@
         <div class="float-left">
             <a href="#" class="btn-comment">Comments</a>
         </div>
+        <input type="checkbox" name="check-heart" id="check-heart">
+        <label for="check-heart" class="float-right text-grey heart my-1">
+            <%=campground.hearts%>             
+                <svg class="icon-heart-filled" >
+                    <use xlink:href="../css/img,svg/icon-2.svg#icon-heart"></use>
+                </svg>             
+        </label >
+    </div>
+    <div class="p-4 w-100 d-inline-block border border-left-0 border-right-0 border-bottom-0">
+        
+        <span class="float-left text-grey views-div"><%=campground.views%> Views</span>
+
         <div class=" float-right">
             <a href="facebook-1" class=" p-3">
                 <svg class="icon-facebook-1" >
@@ -27,16 +39,7 @@
 
     </div>
     
-    <div class="pt-4 border border-left-0 border-right-0 border-bottom-0 ">
-        <span class="float-left text-grey views-div"><%=campground.views%> Views</span>
-        <input type="checkbox" name="check-heart" id="check-heart">
-        <label for="check-heart" class="float-right text-grey heart my-1">
-            <%=campground.hearts%>             
-                <svg class="icon-heart-filled" >
-                    <use xlink:href="../css/img,svg/icon-2.svg#icon-heart"></use>
-                </svg>             
-        </label >
-    </div>
+    
     <div class=" drop-blog-1">
         <button type="button " class="p-3 btn" data-toggle="dropdown">
             <svg class="icon-dehaze" >

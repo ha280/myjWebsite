@@ -30,7 +30,7 @@
 	display: inline-block;
     transition: all .4s;
     text-transform: capitalize;
-    background-image: linear-gradient(to right,#7ed56f, #28b384);
+    background-image: linear-gradient(to right,$color-blue-light, $color-blue-dark);
     -webkit-background-clip: text;
     color: transparent;
     &:hover{
@@ -43,7 +43,7 @@
 	display: inline-block;
     transition: all .4s;
     text-transform: capitalize;
-    background-image: linear-gradient(to right,#7ed56f, #28b384);
+    background-image: linear-gradient(to right,$color-blue-light, $color-blue-dark);
     -webkit-background-clip: text;
     color: transparent;
     &:hover{
