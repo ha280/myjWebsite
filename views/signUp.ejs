@@ -2,6 +2,10 @@
 <section class="section-signup">
   <form class="form-login" action="/signup">
     <h2>Sign up</h2>
+    <label for="FullName">Full Name</label>
+    <input type="text" name="FullName" required />
+    <label for="Occupation">Occupation</label>
+    <input type="text" name="Occupation" required />
     <label for="UserName">UserName</label>
     <input type="text" name="UserName" required />
     <label for="email">Email</label>
@@ -33,11 +37,13 @@
     const email = form.email.value;
     const password = form.password.value;
     const UserName = form.UserName.value;
+    const FullName = form.FullName.value;
+    const Occupation = form.Occupation.value;
 
     try {
       const res = await fetch('/signup', { 
         method: 'POST', 
-        body: JSON.stringify({ email, password,UserName }),
+        body: JSON.stringify({email, password,UserName,FullName,Occupation}),
         headers: {'Content-Type': 'application/json'}
       });
       const data = await res.json();
