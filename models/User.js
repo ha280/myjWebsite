@@ -20,7 +20,10 @@ const userSchema = new mongoose.Schema({
   },
   Occupation: {
     type: String,
-  }
+  },
+  Age: {
+    type: Number,
+  },
 });
 
 

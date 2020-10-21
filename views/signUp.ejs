@@ -1,19 +1,30 @@
 <%- include('partials/header'); -%>
 <section class="section-signup">
-  <form class="form-login" action="/signup">
-    <h2>Sign up</h2>
-    <label for="FullName">Full Name</label>
-    <input type="text" name="FullName" required />
-    <label for="Occupation">Occupation</label>
-    <input type="text" name="Occupation" required />
-    <label for="UserName">UserName</label>
-    <input type="text" name="UserName" required />
-    <label for="email">Email</label>
+  <form class="form-Signup" action="/signup">
+    <h2 class="">Sign up</h2>
+    <label for="FullName" style="margin-right: 10rem;">Full Name :</label>
+    <input type="text" name="FullName" required /><br>
+    <label for="Age" style="margin-right: 10rem;">Age :</label>
+    <input type="text" name="Age" required /><br>
+    <div class=" d-inline">
+      <label for="Gender" style="margin-right: 10rem;">Gender</label>
+      <div class="d-inline-block w-25">
+        <input type="radio" class="radio float-left w-25" name="Gender" id="Male">
+        <label for="Male" class="mr-4 float-right w-50 m-0">Male</label>
+      </div>
+      <div class="d-inline-block w-25">
+        <input type="radio" class="radio float-left w-25" name="Gender" id="Female">
+        <label for="Female" class="mr-4 float-right w-50 m-0">Female</label>        
+      </div>
+    </div><br>
+    <label for="UserName" style="margin-right: 10rem;">UserName</label>
+    <input type="text" name="UserName" required /><br>
+    <label for="email" style="margin-right: 10rem;">Email</label>
     <input type="text" name="email" required />
-    <div class="email error"></div>
-    <label for="password">Password</label>
+    <div class="email error"></div><br>
+    <label for="password" style="margin-right: 10rem;">Password</label>
     <input type="password" name="password" required />
-    <div class="password error"></div>
+    <div class="password error"></div><br>
     <button class="submit">Sign up</button>
   </form>
 </section>
@@ -39,11 +50,13 @@
     const UserName = form.UserName.value;
     const FullName = form.FullName.value;
     const Occupation = form.Occupation.value;
+    const Age = form.Age.value;
+    const Gender = form.Gender.value;
 
     try {
       const res = await fetch('/signup', { 
         method: 'POST', 
-        body: JSON.stringify({email, password,UserName,FullName,Occupation}),
+        body: JSON.stringify({email, password,UserName,FullName,Occupation,Age}),
         headers: {'Content-Type': 'application/json'}
       });
       const data = await res.json();
