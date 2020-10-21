@@ -11,7 +11,7 @@ const expressSanitizer = require("express-sanitizer");
     expresanitiz= require("express-sanitizer");
 const { requireAuth, checkUser } = require('./middleware/authMiddleware');
 // mongodb+srv://Mrityunjaya:MongoDB9V@cluster0.gznsa.mongodb.net/Mrityunjaya mongodb://localhost:27017/test 
-const dbURI = 'mongodb+srv://Mrityunjaya:MongoDB9V@cluster0.gznsa.mongodb.net/Mrityunjaya';
+const dbURI = 'mongodb://localhost:27017/test';
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
     .then((result) => console.log("Server is running..."))
     .catch((err) => console.log(err));
