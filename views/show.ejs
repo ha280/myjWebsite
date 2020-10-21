@@ -46,7 +46,7 @@
     </div>
     
     
-    <div class=" drop-blog-1">
+    <div class=" drop-blog-1 ">
         <button type="button " class="p-3 btn" data-toggle="dropdown">
             <svg class="icon-dehaze" >
                 <use xlink:href="../css/img,svg/icons-1.svg#icon-dehaze" ></use>
@@ -61,10 +61,14 @@
     </div>
 </section>
 
+
+<%- include('partials/footer') %>
 <script>
     const dis_tabs = document.querySelector('.views-div');
-    
+    const editdel = document.querySelector('.drop-blog-1');
+    if(campground.UserId != user.email ){
+        editdel.classList.add('d-none');
+    };
     console.log(x);
     dis_tabs.innerHTML= x + "Views";
 </script>
-<%- include('partials/footer') %>
