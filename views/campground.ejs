@@ -3,11 +3,12 @@
     <h1 class="heading-primary">Blogs</h1>
 
     <% campground.forEach(function(campgrounds){ %>
-        <div class="blog-box d-inline-block p-2 w-100">
-            <div class="w-30 float-left pt-1 pl-1">
-                <img src="<%= campgrounds.image %>" alt="" class="w-100">
-            </div>
-            <div class="float-right w-65 py-2" >
+        <div class="blog-box d-inline-block p-2 w-100 story" >
+            <figure class="float-left story__shape">
+                <img src="<%= campgrounds.image %>" alt="" class="story__img w-100">
+                <figcaption class="story__caption w-100"><%=campgrounds.UserId%></figcaption>
+            </figure>
+            <div class="float-right w-75 py-2 story_text" >
                 <div class=" ml-5 pb-2 font-s">
                     <span class=""><%= campgrounds.created.toDateString() %></span>
                 </div>

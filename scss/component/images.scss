@@ -2,3 +2,57 @@
     height: 5rem;
     padding: .7rem;
 }
+.story{
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 3rem 6rem rgba(#000000, 0.15);
+    background-color: rgba($color-white,.6);
+    border-radius: 3px;
+    font-size: 1.6rem;
+    padding: 6rem;
+    transform: skewX(-12deg);
+    padding-left: 9rem;
+
+    &__shape{
+        width: 15rem;
+        height: 15rem;
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%);
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        transform: translateX(-3rem) skewX(12deg);
+        position: relative;
+        margin-left: 5rem;
+    }
+    &__img{
+        height: 100%;
+        backface-visibility: hidden;
+        transition: all .5s;
+        transform: scale(1.4) translateX(-4rem);
+        margin-left: 4rem;
+    }
+    &__caption{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        color: $color-white;
+        font-size: 1.5rem;
+        text-align: center;
+        opacity: 0;
+        backface-visibility: hidden;
+        transition: all .5s;
+    }
+    &_text{
+        transform: skewX(12deg);
+    }
+    &:hover &__caption{
+        opacity: 1;
+        transform: translate(-50%,-50%);
+        transition: all .2s;
+    }
+    &:hover &__img{
+        transform: translateX(-4rem) scale(1);
+        filter: blur(3px) brightness(80%);
+    }
+}

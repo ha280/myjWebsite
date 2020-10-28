@@ -2,7 +2,7 @@
 <section class="section-new-post">
     <form class="form-login new-post" method="POST" action="/campground">
         <h1 class="heading-primary">Add for Blog</h1>
-        <input type="text" style="display: none;" value="<%= user.email %>" name="UserId">
+        <input type="text" style="display: none;" value="<%= user.FullName%>" name="UserId">
         <input type="text" style="margin: 0.5rem 0;" placeholder="name" name="name" required>
         <input type="text"  style="margin: 0.5rem 0;" placeholder="image url" name="image">
         <textarea type="text" style=" width:34rem; height:10rem; margin: 0.5rem 0;" placeholder="description" name="description"></textarea>

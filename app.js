@@ -28,7 +28,7 @@ app.use(cookieParser());
 //SCEMA SETUP
 var campground = mongoose.model('campground', { 
     name: String ,
-    UserId: String,
+    UserName: String,
     image: String,
     views: 0,
     hearts: 0,
