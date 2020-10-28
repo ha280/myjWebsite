@@ -7403,7 +7403,7 @@ header {
     clip-path: circle(50% at 50% 50%);
     transform: translateX(-3rem) skewX(12deg);
     position: relative;
-    margin-left: 5rem; }
+    margin: 1rem 0rem 0 6rem; }
   .story__img {
     height: 100%;
     backface-visibility: hidden;
@@ -7679,7 +7679,8 @@ header {
   grid-column: 2 / 10;
   margin: 5rem 0 10rem; }
 
-.section-vision {
+.section-vision,
+.comesoon {
   grid-row: 3 / 4;
   grid-column: 2 / -2; }
 
