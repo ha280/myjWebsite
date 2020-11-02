@@ -25,6 +25,8 @@
     <label for="password" style="margin-right: 10rem;">Password</label>
     <input type="password" name="password" required />
     <div class="password error"></div><br>
+    <label for="Occupation" style="margin-right: 10rem;">Occupation :</label>
+    <input type="text" name="Occupation" required /><br>
     <button class="submit">Sign up</button>
   </form>
 </section>
@@ -51,7 +53,6 @@
     const FullName = form.FullName.value;
     const Occupation = form.Occupation.value;
     const Age = form.Age.value;
-    const Gender = form.Gender.value;
 
     try {
       const res = await fetch('/signup', { 
