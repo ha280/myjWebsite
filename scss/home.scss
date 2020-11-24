@@ -12,9 +12,12 @@ header{
 	position: relative;
 }
 .section-main-blogs,
-.section-signup,
 .section-login{
 	margin-top: 5rem;
+	grid-column: center-start/center-end;
+	grid-row: 2/3;
+}
+.section-signup{
 	grid-column: center-start/center-end;
 	grid-row: 2/3;
 }
