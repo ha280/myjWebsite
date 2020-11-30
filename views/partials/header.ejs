@@ -16,7 +16,7 @@
 	<body class="contain" >
 		
         <header class="w-100 d-inline">
-			<div class="logo float-left">
+			<div class="logo float-left" style="margin-left: 2rem;" >
 				<a href="/">
 					<img src="../css/img,svg/logo-main.png" alt="logo" id="logo">
 				</a>
@@ -44,7 +44,7 @@
 					<a href="/contactUs" class="btn border-0 btn-block about-btn py-3">Contact Us</a>
 				</li>
 			</ul>
-		<ul class="list-unstyled float-right list-group-horizontal text-center d-flex">
+		<ul class="list-unstyled float-right list-group-horizontal text-center d-flex" style="margin-right: 5rem; margin-bottom: 0;">
 		<% if (user) { %>
 			<li class="dropdown border-0 px-4 pt-4  font-m">
 				<button type="button " class="btn btn-block border-0 py-3" data-toggle="dropdown">Welcome, <%= user.UserName %></button>    
